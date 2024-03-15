@@ -44,7 +44,7 @@ const Home: React.FC = () => {
                 <input
                     className="border border-gray-300 rounded-md p-2 w-full mb-4 focus:outline-none focus:ring-2 focus:ring-blue-900 bg-gray-100 focus:bg-white"
                     type="text"
-                    placeholder="Search posts..."
+                    placeholder="Search Gigs..."
                     value={searchTerm}
                     onChange={handleSearchChange}
                 />
